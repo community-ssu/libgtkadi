@@ -1,8 +1,15 @@
+libgtkadi (0.7.14-1+0m5) unstable; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    version has been changed to 0.7.14-1+0m5
+
+ -- Tuukka Tolvanen <tuukka.tolvanen@nokia.com>  Wed, 02 Jun 2010 20:44:18 +0300
+
 libgtkadi (0.7.14-1) unstable; urgency=low
 
   * Fixes: NB#162688 - browser components recompilation with G_DISABLE_CAST_CHECKS
 
- -- Pekka Vanhoja <pekka.vanhoja@digia.com>  Mon, 12 Apr 2010 15:06:32 +0300
+ -- Andrey Petrov <andrey.petrov@nokia.com>  Mon, 12 Apr 2010 15:06:32 +0300
 
 libgtkadi (0.7.13-1) unstable; urgency=low
 
