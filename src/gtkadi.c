@@ -57,6 +57,7 @@
 #ifdef HILDON_SUPPORT
 #ifdef NEWHILDON_SUPPORT
 #ifdef MAEMO_CHANGES
+#include<hildon/hildon.h>
 #include<hildon/hildon-window.h>
 #include<hildon/hildon-program.h>
 #else
@@ -782,6 +783,7 @@ gtk_adi_create_window (GtkAdi* adi, GtkWidget *widget)
     {
 #ifdef NEWHILDON_SUPPORT
         window = GTK_WIDGET(hildon_window_new());
+        hildon_gtk_window_set_portrait_flags(GTK_WINDOW(window), HILDON_PORTRAIT_MODE_SUPPORT);
 #else
         window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
 #endif
